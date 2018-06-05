@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Survey Form Assignment</title>
+</head>
+<body>
+    <form action="/result" method="POST">
+        <div id="name">
+            <label for="name">Your Name: </label>
+            <input type="text" name="name" id="">
+        </div>
+        <div id="location">
+            <label for="location">Dojo Location: </label>
+            <select name="dojoLocation">
+                <option value="Mountain View">Mountain View</option>
+                <option value="Seattle">Seattle</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Los Angeles">Los Angeles</option>
+            </select>
+        </div>
+        <div id="language">
+            <label for="language">Favorite Language: </label>
+            <select name="language">
+                <option value="Nodejs">Nodejs</option>
+                <option value="Ruby">Ruby on Rails</option>
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+        </div>
+        <div id="comment">
+            <label for="Comment">Comment (optional): </label>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
